@@ -69,7 +69,7 @@ INSERT INTO `jobs` VALUES ('unemployed2','Sans Orga',0,1);
 
 
 
--- Delete if it's your first injection
+-- Delete if you don't have already inject the es_extended sql.
 
 
 ALTER TABLE `users`
