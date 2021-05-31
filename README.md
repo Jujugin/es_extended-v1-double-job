@@ -1,3 +1,13 @@
+# MY README
+
+Inject the sql and start on your server.cfg
+
+
+#Make pull requests when you encounter a bug and fix it to benefit the community!
+
+JOIN MY DISCORD SERVER FOR SUPPORT : https://discord.gg/VzurTsRTGx
+
+
 # DEFAULT README
 
 # es_extended LEGACY / BROKEN / WONTFIX
@@ -96,9 +106,3 @@ This program Is distributed In the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy Of the GNU General Public License along with this program. If Not, see http://www.gnu.org/licenses/.
 
-# MY README
-
-Inject the sql and start on your server.cfg
-
-
-#Make pull requests when you encounter a bug and fix it to benefit the community!
