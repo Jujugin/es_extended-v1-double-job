@@ -105,20 +105,10 @@ Double Job SQL :
 
 ALTER TABLE jobs add SecondaryJob BOOLEAN NOT NULL DEFAULT FALSE;
 -- Install https://github.com/esx-framework/esx_joblisting for work
-
 INSERT INTO `jobs` VALUES ('unemployed2','Sans Orga',0,1);
-
-
-
-
-
-
-ALTER TABLE `users
-
+ALTER TABLE `users`
 	ADD COLUMN `job2` varchar(255) NULL DEFAULT 'unemployed2' AFTER `job_grade`,
-
 	ADD COLUMN `job2_grade` INT NULL DEFAULT 0 AFTER `job2`
-
-;```
+;
 
 #Make pull requests when you encounter a bug and fix it to benefit the community!
