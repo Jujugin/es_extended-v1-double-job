@@ -4,6 +4,9 @@
 
 Inject the sql and start on your server.cfg
 
+DEPENDENCIES : esx_joblisting
+https://github.com/esx-framework/esx_joblisting
+
 
 Make pull requests when you encounter a bug and fix it to benefit the community!
 
