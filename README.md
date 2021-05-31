@@ -3,7 +3,7 @@
 Inject the sql and start on your server.cfg
 
 
-#Make pull requests when you encounter a bug and fix it to benefit the community!
+Make pull requests when you encounter a bug and fix it to benefit the community!
 
 JOIN MY DISCORD SERVER FOR SUPPORT : https://discord.gg/VzurTsRTGx
 
