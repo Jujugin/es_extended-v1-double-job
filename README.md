@@ -100,15 +100,5 @@ You should have received a copy Of the GNU General Public License along with thi
 
 Inject the sql and start on your server.cfg
 
-Double Job SQL : 
-
-
-ALTER TABLE jobs add SecondaryJob BOOLEAN NOT NULL DEFAULT FALSE;</br>
--- Install https://github.com/esx-framework/esx_joblisting for work</br>
-INSERT INTO `jobs` VALUES ('unemployed2','Sans Orga',0,1);</br>
-ALTER TABLE `users`
-	ADD COLUMN `job2` varchar(255) NULL DEFAULT 'unemployed2' AFTER `job_grade`,
-	ADD COLUMN `job2_grade` INT NULL DEFAULT 0 AFTER `job2`
-;</br>
 
 #Make pull requests when you encounter a bug and fix it to benefit the community!
