@@ -1,5 +1,7 @@
 # MY README
 
+<a href="https://discord.gg/8kecDPvAAx"><img src="https://discordapp.com/api/guilds/848236715961352242/widget.png" /></a>
+
 Inject the sql and start on your server.cfg
 
 
