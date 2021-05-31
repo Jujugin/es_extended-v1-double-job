@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS `es_extended`;
-USE `es_extended`;
+
+--USE `es_extended`;
 
 
 
@@ -66,6 +66,7 @@ ALTER TABLE jobs add SecondaryJob BOOLEAN NOT NULL DEFAULT FALSE;
 -- Install https://github.com/esx-framework/esx_joblisting for work
 
 INSERT INTO `jobs` VALUES ('unemployed2','Sans Orga',0,1);
+INSERT INTO `job_grades` VALUES ('unemployed2',0,'unemployed2','Unemployed',200,'{}','{}');
 
 
 
