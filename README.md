@@ -1,3 +1,5 @@
+# DEFAULT README
+
 # es_extended LEGACY / BROKEN / WONTFIX
 
 ### Things hapenning here now https://github.com/ESX-Org/es_extended/tree/develop (WIP)
@@ -93,3 +95,31 @@ This program Is free software: you can redistribute it And/Or modify it under th
 This program Is distributed In the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty Of MERCHANTABILITY Or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License For more details.
 
 You should have received a copy Of the GNU General Public License along with this program. If Not, see http://www.gnu.org/licenses/.
+
+# MY README
+
+Inject the sql and start on your server.cfg
+
+Double Job SQL : 
+
+
+```ALTER TABLE jobs add SecondaryJob BOOLEAN NOT NULL DEFAULT FALSE;
+
+-- Install https://github.com/esx-framework/esx_joblisting for work
+
+INSERT INTO `jobs` VALUES ('unemployed2','Sans Orga',0,1);
+
+
+
+
+
+
+ALTER TABLE `users`
+
+	ADD COLUMN `job2` varchar(255) NULL DEFAULT 'unemployed2' AFTER `job_grade`,
+
+	ADD COLUMN `job2_grade` INT NULL DEFAULT 0 AFTER `job2`
+
+;```
+
+#Make pull requests when you encounter a bug and fix it to benefit the community!
