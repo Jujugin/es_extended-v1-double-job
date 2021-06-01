@@ -6,7 +6,7 @@ Inject the sql and start on your server.cfg
 
 DEPENDENCIES : esx_joblisting
 https://github.com/esx-framework/esx_joblisting
-
+PUT THE RIGHT ESX_SOCIETY ON YOUR SERVER : https://github.com/Jujugin/esx_society-double-job-es_extended-v1-final
 
 Make pull requests when you encounter a bug and fix it to benefit the community!
 
