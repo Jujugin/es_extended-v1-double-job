@@ -69,14 +69,3 @@ INSERT INTO `jobs` VALUES ('unemployed2','Sans Orga',0,1);
 INSERT INTO `job_grades` VALUES ('unemployed2',0,'unemployed2','Unemployed',200,'{}','{}');
 
 
-
--- Delete if you don't have already inject the es_extended sql.
-
-
-ALTER TABLE `users`
-
-	ADD COLUMN `job2` varchar(255) NULL DEFAULT 'unemployed2' AFTER `job_grade`,
-
-	ADD COLUMN `job2_grade` INT NULL DEFAULT 0 AFTER `job2`
-
-;
